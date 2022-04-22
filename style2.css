@@ -1,0 +1,79 @@
+body{
+    font-family :Arial, Helvetica, sans-serif;
+    color : black;
+}
+
+a{  
+    color:white;
+    font-weight: bold;
+    text-decoration: none;
+    font-style: none;
+    list-style: none;
+}
+
+a:checked{
+    color:white;
+}
+
+nav {
+    height: 50px;
+    background-color:#EEE;
+    display: flex;
+    align-items: center;
+}
+
+.menu-items {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    list-style: none;
+}
+
+.menu-item{
+    background-color: black;
+    color:white;
+    margin: 4px;
+    padding: 6px;
+}
+
+/* image formatting goes here */
+#wrapper{
+    max-width: 960px;
+    margin: auto;
+}
+
+.picture-blocks{
+    display: flex;
+}
+
+.picture-sect img{
+    float: left;
+    width: 90%;
+    border: solid #888 3px;
+    margin: 10px;
+}
+
+/* Intro Formatting Here*/
+
+.introduction {
+    text-align: center;
+    width: 500px; 
+    margin: auto;
+}
+.introduction p{
+    text-align: justify;
+}
+
+/* Footer formatting here*/
+
+footer{
+    width:500px;
+    margin: auto;
+}
+.final-button {
+    margin: auto;
+}
+
+#inspirational{
+    display: none;
+}
